@@ -22,6 +22,11 @@ public class MagicOrb : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        this.transform.Translate(0, 0, speed * Time.deltaTime);
+        MoveObject();
 	}
+
+    void MoveObject()
+    {
+        this.transform.Translate(0, 0, speed * Time.deltaTime);
+    }
 }
