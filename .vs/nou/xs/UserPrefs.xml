@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{9BE79586-2926-F7E9-D46C-EABACEA626E8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MagicOrb.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CannonBall.cs">
     <Files>
-      <File FileName="Assets/Scripts/MagicOrb.cs" Line="6" Column="5" />
+      <File FileName="Assets/Scripts/MagicOrb.cs" Line="37" Column="55" />
+      <File FileName="Assets/Scripts/CannonBall.cs" Line="7" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
