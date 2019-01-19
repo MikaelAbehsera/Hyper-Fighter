@@ -29,4 +29,13 @@ public class MagicOrb : MonoBehaviour {
     {
         this.transform.Translate(0, 0, speed * Time.deltaTime);
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        this.GetComponent<AudioSource>().PlayOneShot(audioHit);
+        this.GetComponent<Renderer>().enabled = false;
+        this.GetComponent<Collider>().enabled = false;
+
+        Destroy(this.gameObject, audioHit.length);
+    }
 }
