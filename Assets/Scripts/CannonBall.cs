@@ -10,11 +10,30 @@ public class CannonBall : MonoBehaviour {
     public AudioClip audioHit = null;
     public AudioClip audioShoot = null;
     public ParticleSystem particle = null;
+    public bool isActive = true;
 
     void Awake()
     {
         this.GetComponent<Rigidbody>().AddRelativeForce(new Vector3 (0, 400, 400));
+
+        this.GetComponent<AudioSource>().PlayOneShot(audioShoot);
     }
+
+    float GetRandomValue()
+    {
+        return Random.Range(minForce, maxForce);
+    }
+
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (isActive)
+        {
+            isActive = false;
+            this.GetComponent<AudioSource>().PlayOneShot(audioHit);
+        }
+    }
+
 
     // Use this for initialization
     void Start () {
