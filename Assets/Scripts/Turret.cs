@@ -7,6 +7,13 @@ public class Turret : MonoBehaviour {
     public Transform player = null;
     public GameObject cannonball = null;
 
+    public float minDelay = 1.0f;
+    public float delayTime = 0.0f;
+
+    private float lastTime = 0.0f;
+    private float delayTime = 0.0f;
+
+
 
 	// Use this for initialization
 	void Start () {

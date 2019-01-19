@@ -219,6 +219,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rotateSpeed: 150
+  bulletAmount: 20
+  magicOrb: {fileID: 1191560440132272, guid: 8c8f6efcd90334d019e235217d3e2c60, type: 2}
+  socket: {fileID: 626973487}
 --- !u!1 &167777876
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,6 +355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02ec55a2224dc4242a4531e158fd6f32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 54768607}
+  cannonball: {fileID: 1993310126871684, guid: e446b646278af489294c3cb5c8f9e0eb, type: 2}
 --- !u!1 &626973486
 GameObject:
   m_ObjectHideFlags: 0
