@@ -436,6 +436,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79b7a5f5f17ea4e9ab33ff0cfa2b318b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitpoint: 20
+  minForce: 400
+  maxForce: 700
+  audioHit: {fileID: 8300000, guid: 85bbe9fc0061549f6b8339afbde73a9f, type: 3}
+  audioShoot: {fileID: 8300000, guid: 5fe59913f67b4497f804f39d8f8ccb08, type: 3}
+  particle: {fileID: 0}
 --- !u!1 &1052542436
 GameObject:
   m_ObjectHideFlags: 0

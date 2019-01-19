@@ -11,8 +11,13 @@ public class CannonBall : MonoBehaviour {
     public AudioClip audioShoot = null;
     public ParticleSystem particle = null;
 
-	// Use this for initialization
-	void Start () {
+    void Awake()
+    {
+        this.GetComponent<Rigidbody>().AddRelativeForce(new Vector3 (0, 400, 400));
+    }
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
