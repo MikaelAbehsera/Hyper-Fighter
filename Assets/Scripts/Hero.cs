@@ -9,13 +9,13 @@ public class Hero : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Move();
+       
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        Move();
+    }
 
     void Move()
     {
@@ -23,6 +23,6 @@ public class Hero : MonoBehaviour {
         float rotation = Input.GetAxis("Horizontal") * rotateSpeed;
 
         this.transform.Translate(0, 0, move * Time.deltaTime);
-        this.transform.Translate(0, rotation * Time.deltaTime, 0);
+        this.transform.Rotate(0, rotation * Time.deltaTime, 0);
     }
 }
