@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{9BE79586-2926-F7E9-D46C-EABACEA626E8}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MagicOrb.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MagicOrb.cs" Line="6" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
