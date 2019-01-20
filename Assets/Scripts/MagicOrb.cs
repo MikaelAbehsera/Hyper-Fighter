@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MagicOrb : MonoBehaviour {
 
-    public int hitpoint = 10;
+    public int hitpoint = 25;
     public float speed = 5.0f;
     public AudioClip audioHit = null;
     public AudioClip audioShoot = null;
@@ -15,11 +15,6 @@ public class MagicOrb : MonoBehaviour {
         this.GetComponent<AudioSource>().PlayOneShot(audioShoot);
     }
 
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
 	// Update is called once per frame
 	void Update () {
         MoveObject();

@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{9BE79586-2926-F7E9-D46C-EABACEA626E8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Turret.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MagicOrb.cs">
     <Files>
-      <File FileName="Assets/Scripts/MagicOrb.cs" Line="37" Column="55" />
-      <File FileName="Assets/Scripts/CannonBall.cs" Line="33" Column="68" />
-      <File FileName="Assets/Scripts/Hero.cs" Line="10" Column="39" />
-      <File FileName="Assets/Scripts/Turret.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/MagicOrb.cs" Line="38" Column="9" />
+      <File FileName="Assets/Scripts/CannonBall.cs" Line="17" Column="17" />
+      <File FileName="Assets/Scripts/Hero.cs" Line="32" Column="9" />
+      <File FileName="Assets/Scripts/Turret.cs" Line="55" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
