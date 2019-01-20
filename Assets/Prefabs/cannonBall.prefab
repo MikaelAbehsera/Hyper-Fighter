@@ -211,9 +211,9 @@ MonoBehaviour:
   hitpoint: 20
   minForce: 400
   maxForce: 700
-  audioHit: {fileID: 8300000, guid: 85bbe9fc0061549f6b8339afbde73a9f, type: 3}
-  audioShoot: {fileID: 8300000, guid: 5fe59913f67b4497f804f39d8f8ccb08, type: 3}
-  isActive: 1
+  audioHit: {fileID: 0}
+  audioShoot: {fileID: 0}
+  isActive: 0
 --- !u!135 &135294387316402230
 SphereCollider:
   m_ObjectHideFlags: 1

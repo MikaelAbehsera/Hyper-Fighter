@@ -45,12 +45,12 @@ public class Turret : MonoBehaviour {
         return Random.Range(minDelay, maxDeplay);
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
-        Debug.Log(collision.gameObject.name);
-        if (collision.gameObject.name == "herobullet")
+        Debug.Log(other.name);
+        if (other.name == "herobullet")
         {
-            int hp = collision.gameObject.GetComponent<MagicOrb>().hitpoint;
+            int hp = other.GetComponent<MagicOrb>().hitpoint;
             GetHealth(hp);
         }
     }

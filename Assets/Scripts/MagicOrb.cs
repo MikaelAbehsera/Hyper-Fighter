@@ -5,14 +5,14 @@ using UnityEngine;
 public class MagicOrb : MonoBehaviour {
 
     public int hitpoint = 25;
-    public float speed = 5.0f;
+    public float speed = 25.0f;
     public AudioClip audioHit = null;
     public AudioClip audioShoot = null;
     public ParticleSystem particle = null;
 
     void Awake()
     {
-        this.GetComponent<AudioSource>().PlayOneShot(audioShoot);
+        //this.GetComponent<AudioSource>().PlayOneShot(audioShoot);
     }
 
 	// Update is called once per frame
@@ -27,10 +27,11 @@ public class MagicOrb : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        this.GetComponent<AudioSource>().PlayOneShot(audioHit);
+        //this.GetComponent<AudioSource>().PlayOneShot(audioHit);
         this.GetComponent<Renderer>().enabled = false;
         this.GetComponent<Collider>().enabled = false;
 
-        Destroy(this.gameObject, audioHit.length);
+        //Destroy(this.gameObject, audioHit.length);
+        Destroy(this.gameObject);
     }
 }

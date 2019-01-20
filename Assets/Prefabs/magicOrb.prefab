@@ -208,10 +208,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0421acf1c2994957887a2a53a4938e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitpoint: 10
-  speed: 5
-  audioHit: {fileID: 8300000, guid: 0ca813a34cfdc4607b28431eaf3ad1bf, type: 3}
-  audioShoot: {fileID: 8300000, guid: f266a4045e12c4dc9aa3a39f9ad56c46, type: 3}
+  hitpoint: 25
+  speed: 25
+  audioHit: {fileID: 0}
+  audioShoot: {fileID: 0}
   particle: {fileID: 0}
 --- !u!135 &135881944960227366
 SphereCollider:

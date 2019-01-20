@@ -6,7 +6,7 @@ public class Hero : MonoBehaviour {
 
     public int health = 100;
     public float moveSpeed = 5.0f;
-    public float rotateSpeed = 150.0f;
+    public float rotateSpeed = 200.0f;
     public int bulletAmount = 20;
     public GameObject magicOrb = null;
     public Transform socket = null;
