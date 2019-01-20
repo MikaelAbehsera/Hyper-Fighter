@@ -19,7 +19,6 @@ public class Turret : MonoBehaviour {
 	void Update () {
         FollowPlayer();
         Shoot();
-
 	}
 
     void FollowPlayer()
@@ -48,7 +47,8 @@ public class Turret : MonoBehaviour {
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "heroBullet")
+        Debug.Log(collision.gameObject.name);
+        if (collision.gameObject.name == "herobullet")
         {
             int hp = collision.gameObject.GetComponent<MagicOrb>().hitpoint;
             GetHealth(hp);

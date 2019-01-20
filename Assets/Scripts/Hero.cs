@@ -36,7 +36,7 @@ public class Hero : MonoBehaviour {
             {
                 bulletAmount--;
                 GameObject obj = Instantiate(magicOrb, socket.position, socket.rotation) as GameObject;
-                obj.name = "heroBullet";
+                obj.name = "herobullet";
             }
         }
     }
