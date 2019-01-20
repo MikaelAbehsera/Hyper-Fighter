@@ -48,8 +48,7 @@ public class Turret : MonoBehaviour {
 
     void OnCollisionEnter(Collision collision)
     {
-        // Debug.Log("hi how are you?");
-        if (collision.gameObject.name == "magicOrb")
+        if (collision.gameObject.name == "heroBullet")
         {
             int hp = collision.gameObject.GetComponent<MagicOrb>().hitpoint;
             GetHealth(hp);

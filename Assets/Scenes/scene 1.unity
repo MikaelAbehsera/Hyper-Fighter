@@ -140,7 +140,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 54768606}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -4.573}
+  m_LocalPosition: {x: 0, y: 1.02, z: -4.573}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1615915234}
@@ -312,8 +312,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.9930661, y: 1, z: 1}
+  m_Center: {x: 0.0034669638, y: 0, z: 0}
 --- !u!23 &610888839
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -371,7 +371,7 @@ MonoBehaviour:
   player: {fileID: 54768607}
   cannonball: {fileID: 1993310126871684, guid: e446b646278af489294c3cb5c8f9e0eb, type: 2}
   minDelay: 1
-  maxDeplay: 0
+  maxDeplay: 4
 --- !u!1 &626973486
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,6 +410,7 @@ GameObject:
   - component: {fileID: 961540629}
   - component: {fileID: 961540632}
   - component: {fileID: 961540631}
+  - component: {fileID: 961540630}
   m_Layer: 0
   m_Name: headband
   m_TagString: Untagged
@@ -430,6 +431,21 @@ Transform:
   m_Father: {fileID: 54768607}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
+--- !u!54 &961540630
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 961540628}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!23 &961540631
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -742,6 +758,7 @@ GameObject:
   - component: {fileID: 1415162896}
   - component: {fileID: 1415162899}
   - component: {fileID: 1415162898}
+  - component: {fileID: 1415162897}
   m_Layer: 0
   m_Name: torso
   m_TagString: Untagged
@@ -762,6 +779,21 @@ Transform:
   m_Father: {fileID: 54768607}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1415162897
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1415162895}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!23 &1415162898
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -814,6 +846,7 @@ GameObject:
   - component: {fileID: 1615915234}
   - component: {fileID: 1615915237}
   - component: {fileID: 1615915236}
+  - component: {fileID: 1615915235}
   m_Layer: 0
   m_Name: head
   m_TagString: Untagged
@@ -834,6 +867,21 @@ Transform:
   m_Father: {fileID: 54768607}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1615915235
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1615915233}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!23 &1615915236
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -887,6 +935,7 @@ GameObject:
   - component: {fileID: 1784400494}
   - component: {fileID: 1784400493}
   - component: {fileID: 1784400492}
+  - component: {fileID: 1784400495}
   m_Layer: 0
   m_Name: turretBase
   m_TagString: Untagged
@@ -962,6 +1011,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1784400490}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1784400495
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1784400490}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1820750719
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,6 +1036,7 @@ GameObject:
   - component: {fileID: 1820750720}
   - component: {fileID: 1820750723}
   - component: {fileID: 1820750722}
+  - component: {fileID: 1820750721}
   m_Layer: 0
   m_Name: weapon
   m_TagString: Untagged
@@ -992,6 +1057,21 @@ Transform:
   m_Father: {fileID: 54768607}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
+--- !u!54 &1820750721
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1820750719}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!23 &1820750722
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1044,6 +1124,7 @@ GameObject:
   - component: {fileID: 2098961690}
   - component: {fileID: 2098961693}
   - component: {fileID: 2098961692}
+  - component: {fileID: 2098961691}
   m_Layer: 0
   m_Name: arm
   m_TagString: Untagged
@@ -1064,6 +1145,21 @@ Transform:
   m_Father: {fileID: 54768607}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
+--- !u!54 &2098961691
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2098961689}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!23 &2098961692
 MeshRenderer:
   m_ObjectHideFlags: 0
