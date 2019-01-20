@@ -3,7 +3,7 @@
     <Files>
       <File FileName="Assets/Scripts/MagicOrb.cs" Line="8" Column="32" />
       <File FileName="Assets/Scripts/Hero.cs" Line="45" Column="26" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="6" Column="5" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="24" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

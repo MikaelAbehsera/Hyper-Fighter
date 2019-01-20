@@ -13,6 +13,13 @@ public class GameManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        DisplayProperties();
 	}
+
+    void DisplayProperties()
+    {
+        UserHp.text = "User Hp: " + hero.health.ToString();
+        Shots.text = "Shots Left: " + hero.bulletAmount.ToString();
+
+    }
 }
