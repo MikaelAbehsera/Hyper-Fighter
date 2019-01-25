@@ -1,5 +1,5 @@
 # Hyper-Fighter
-A single level boss fighting 3d game made in Unity with c#.
+A single level boss fighting 3d game made in Unity with c#. With 2 characters, the hero and the turret, the hero needs to elimnate the turrets and get the hostages, while the auto locking turrets need to keep him away.
 
 ## Video examples of the game level's being built in the early stages
 - https://i.gyazo.com/3a586e770dc8ba4d41e61bad32d6696c.mp4
